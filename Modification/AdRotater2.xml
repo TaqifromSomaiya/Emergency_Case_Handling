@@ -1,0 +1,24 @@
+﻿<Advertisements>
+	<Ad>
+		<ImageUrl>Content\Designer (1).png</ImageUrl>
+		<Height>500px</Height>
+		<Width>376px</Width>
+		<NavigateUrl>https://en.wikipedia.org/wiki/Max_Verstappen</NavigateUrl>
+		<AlternateText>
+			Tu tu du du max Verstappen
+		</AlternateText>
+		<Impressions>20</Impressions>
+		<Keyword>flowers</Keyword>
+	</Ad>
+
+	<Ad>
+		<ImageUrl>Content\dalle-image50.jpg</ImageUrl>
+		<Height>500px</Height>
+		<Width>376px</Width>
+		<NavigateUrl>https://9gag.com/tag/max-verstappen</NavigateUrl>
+		<AlternateText>Tu tu du du max Verstappen</AlternateText>
+		<Impressions>20</Impressions>
+		<Keyword>gifts</Keyword>
+	</Ad>
+
+</Advertisements>

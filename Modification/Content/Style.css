@@ -1,0 +1,32 @@
+﻿body, html {
+    padding: 0;
+    margin: 0;
+
+}
+.forumBox li {
+    position: relative;
+}
+.background_contain {
+    height:130%;
+    width: 100%;
+    background-image: url('Content\200w.gif');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.buttonCR {
+    background-color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+    .buttonCR:hover {
+        background-color: #C2B280 !important;
+    }

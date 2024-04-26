@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HF.master.cs" Inherits="Modification.HF" %>
+
+<paddings padding="0px" />
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link rel="stylesheet" type="text/css" href="Style.css" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="background-color: brown">
+            <div>
+                <h1 style="text-align: center; font-family:'Lucida Calligraphy'; font-size: 55px; color: white; padding-top:23px; ">CRITI CARE
+                </h1>
+            </div>
+            <asp:Menu ID="Menu1" StaticMenuItemStyle-VerticalPadding="2px" runat="server" ForeColor="white" Orientation="Horizontal" BackColor="#0f5a5e" Font-Names="Verdana" Font-Size="1.2em"   StaticMenuItemStyle-Width="205px" >
+                <Items>
+                    <asp:MenuItem Text="HOME" Value="HOME"   NavigateUrl="~/MainPage.aspx" ></asp:MenuItem>
+                    <asp:MenuItem Text="ABOUT  " Value="ABOUT " NavigateUrl="~/Contact.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="CONTACT US" Value="CONTACT US" NavigateUrl="~/About.aspx"></asp:MenuItem>
+                </Items>
+                <StaticHoverStyle BackColor="#90ee90" ForeColor="#F5F5DC" />
+                <StaticMenuItemStyle HorizontalPadding="120px" BorderColor="black" BorderWidth="1px"  />
+            </asp:Menu>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+</asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder4" runat="server">
+</asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="footer" runat="server">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Label ID="Label1" runat="server" ForeColor="white" Text="©2023 All Right Reserved | Designed, Developed & Maintained by Taqi"></asp:Label>
+            </asp:ContentPlaceHolder>
+        </div>
+
+    </form>
+</body>
+<paddings padding="0px" />
+</html>
